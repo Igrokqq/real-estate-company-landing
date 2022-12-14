@@ -1,0 +1,81 @@
+.container {
+  height: 433px;
+  padding-top: 60px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #292E3D;
+}
+
+.reasonIcon {
+  width: 40px;
+  height: 40px;
+  background-image: url(/images/reason.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.reasonHeadingText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  /* Neutral/700 */
+
+  color: #3D445C;
+}
+
+.reasonSubHeadingText {
+  width: 254px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* Neutral/400 */
+
+  color: #858EAD;
+}
+
+.reasonCard {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 20px 40px;
+  gap: 18px;
+
+  width: 292px;
+  height: 197px;
+
+
+  background: #FFFFFF;
+  /* Neutral/100 */
+
+  border: 1.4px solid #E0E3EB;
+  border-radius: 4px;
+}
+
+.cardsGrid {
+  margin-top: 50px;
+  padding: 0 112px;
+}
+
+.reasonCard:nth-child(2n) {
+  margin: 0 86px;
+}

@@ -1,0 +1,184 @@
+.container {
+  /* margin: 57px 0; */
+  height: 723px;
+  margin-bottom: 57px;
+}
+
+.icon {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 84px;
+  height: 84px;
+  position: absolute;
+}
+
+.happyClientsIcon {
+  background-image: url(/images/stats/happy-clients.svg);
+  right: 0;
+  top: -1rem;
+}
+
+.awardsWinIcon {
+  background-image: url(/images/stats/awards-win.svg);
+  top: -2rem;
+  right: 0;
+}
+
+.projectsCompletedIcon {
+  background-image: url(/images/stats/projects-completed.svg);
+  left: -2rem;
+  top: -3rem;
+}
+
+.yearsInBusinessIcon {
+  background-image: url(/images/stats/years-in-business.svg);
+  right: 0;
+  bottom: -3rem;
+}
+
+.illustrations {
+  display: flex;
+  margin-right: 150px;
+}
+
+.illustrationBlock {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 2px;
+
+  width: 280px;
+  height: 155px;
+
+  position: relative;
+
+  /* Neutral/White */
+
+  background: #FFFFFF;
+  /* Neutral/White */
+
+  border: 1px solid #FFFFFF;
+  /* Shadow 2 */
+
+  box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1), 0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+  border-radius: 4px;
+}
+
+.illustrations:last-child .illustrationBlock:last-child {
+  top: 85px;
+}
+
+.illustrations:last-child .illustrationBlock:first-child {
+  top: 192px;
+  width: 361px;
+}
+
+.illustrations:first-child .illustrationBlock:first-child {
+  top: 100px;
+  width: 361px;
+}
+
+.contentBlockHeading {
+  width: 359px;
+  height: 140px;
+
+  /* Heading/2 */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+
+  /* Primary */
+
+  color: #2947A9;
+}
+
+.contentBlockDescription {
+  margin-top: 40px;
+
+  width: 330px;
+  height: 74px;
+
+  /* Body/medium */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  /* Neutral/600 */
+
+  color: #525B7A;
+}
+
+.contactUsBtn {
+  margin-top: 67px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 10px;
+
+  width: 176px;
+  height: 53px;
+
+  /* Primary */
+
+  background: #2947A9;
+  border-radius: 2px;
+  outline: none;
+  border: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  /* Neutral/White */
+
+  color: #FFFFFF;
+}
+
+.contactUsBtn:hover {
+  filter: opacity(.9);
+}
+
+
+/*  ILLUSTRATIONS  */
+.statTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 84px;
+  display: flex;
+  align-items: flex-end;
+
+  /* Neutral/800 */
+
+  color: #292E3D;
+}
+
+.statShortDescription {
+  margin-left: 15px;
+  white-space: nowrap;
+  padding-left: 12px;
+  border-left: 7px solid #F9995D;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* Neutral/500 */
+
+  color: #667299;
+}

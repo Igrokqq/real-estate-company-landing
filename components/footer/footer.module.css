@@ -1,0 +1,137 @@
+.container {
+  height: 377px;
+}
+
+.contactInfoList div:nth-child(2n) {
+  margin: 32px 0;
+}
+
+.contactInfoTitle,
+.socialNetworksHeading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  font-variant: small-caps;
+
+  /* Primary */
+
+  color: #2947A9;
+}
+
+.socialNetworksHeading {
+  margin-top: 42px;
+}
+
+.logo {
+  margin-top: 32px;
+  background-image: url(/images/footer/logo.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 163px;
+  height: 80px;
+}
+
+.subscribeLabel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  font-variant: small-caps;
+
+  /* Primary */
+
+  color: #2947A9;
+}
+
+.subscribeInput {
+  box-sizing: border-box;
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 8px;
+  gap: 10px;
+
+  width: 280px;
+  height: 41px;
+
+  background: #FFFFFF;
+  /* Neutral/100 */
+
+  border: 1px solid #E0E3EB;
+  border-radius: 4px;
+}
+
+.subscribeBtn {
+  margin-left: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 10px;
+
+  width: 136px;
+  height: 41px;
+
+  /* Secondary */
+
+  background: #F9995D;
+  border-radius: 4px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  /* Neutral/White */
+
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+}
+
+.subscribeBtn:hover {
+  filter: opacity(.9);
+}
+
+.subscribeBtnWrapper {
+  margin-top: 20px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.icon:hover {
+  filter: opacity(.9);
+}
+
+.icon:nth-child(2n) {
+  margin: 0 20px;
+}
+
+.socialNetworksIcons {
+  margin-top: 20px;
+}
+
+.facebookIcon {
+  background-image: url(/images/footer/facebook.svg);
+}
+
+.linkedinIcon {
+  background-image: url(/images/footer/linkedin.svg)
+}
+
+.twitterIcon {
+  background-image: url(/images/footer/twitter.svg);
+}

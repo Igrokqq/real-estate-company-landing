@@ -1,0 +1,80 @@
+.container {
+  padding: 44px 216px;
+  background-color: #F6F8F7;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.constructionIcon {
+  background-image: url(/images/services/construction.svg);
+}
+
+.renovationIcon {
+  background-image: url(/images/services/renovation.svg);
+}
+
+.electricIcon {
+  background-image: url(/images/services/electric.svg);
+}
+
+.consultationIcon {
+  background-image: url(/images/services/consultation.svg);
+}
+
+.repairServicesIcon {
+  background-image: url(/images/services/repair-services.svg);
+}
+
+.architectureIcon {
+  background-image: url(/images/services/architecture.svg);
+}
+
+.serviceCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+
+  width: 271px;
+  height: 181px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  background: #FFFFFF;
+  box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
+  border-radius: 4px;
+}
+
+.serviceCard:nth-child(2n) {
+  margin: 0 98px;
+}
+
+.row1 .serviceCard:nth-child(2n),
+.row2 .serviceCard:nth-child(2n + 1) {
+  padding: 20px;
+  gap: 20px;
+
+  /* Neutral/White */
+
+  color: #FFFFFF;
+
+  /* Primary */
+
+  background: #2947A9;
+}
+
+.row2 {
+  margin-top: 48px;
+}

@@ -1,0 +1,20 @@
+.logo {
+  background-image: url("/images/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+}
+
+.logoTitle {
+  font-family: 'Work Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  margin-left: 14px;
+  /* Primary */
+
+  color: #2947A9;
+}

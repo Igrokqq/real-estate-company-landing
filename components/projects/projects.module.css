@@ -1,0 +1,191 @@
+.container {
+  padding: 88px 0;
+  height: 1100px;
+}
+
+.navPanelList {
+  list-style-type: none;
+}
+
+.navPanelHeading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+
+  /* Neutral/800 */
+
+  color: #292E3D;
+  margin-bottom: 40px;
+}
+
+.category {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+
+  /* Neutral/200 */
+  margin: 20px 0;
+  padding-left: 16px;
+  color: #C2C7D6;
+  cursor: pointer;
+}
+
+.category:hover:not(.activeCategory) {
+  filter: opacity(.9);
+}
+
+.activeCategory {
+  border-left: 4px solid #2947A9;
+  color: #2947A9;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 384px;
+  height: 331px;
+
+  border-radius: 2px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.projectCard:last-child {
+  margin-left: 32px;
+  margin-bottom: 32px;
+}
+
+.row:first-child .projectCard:first-child {
+  background-image: url(/images/projects/project1.svg);
+}
+
+.row:first-child .projectCard:last-child {
+  background-image: url(/images/projects/project2.svg);
+}
+
+.row:last-child .projectCard:first-child {
+  background-image: url(/images/projects/project3.svg);
+}
+
+.row:last-child .projectCard:last-child {
+  background-image: url(/images/projects/project4.svg);
+}
+
+.projectCardInfo {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px 12px 16px;
+  gap: 12px;
+
+  width: 384px;
+  height: 84px;
+
+  /* Primary */
+
+  background: #2947A9;
+}
+
+.projectCardHeading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  /* Neutral/White */
+
+  color: #FFFFFF;
+}
+
+.projectCardSubHeading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* Neutral/White */
+
+  color: #FFFFFF;
+}
+
+
+.arrowBack {
+  width: 26px;
+  height: 17px;
+  background-image: url(/images/arrow-back.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.arrowNext {
+  width: 26px;
+  height: 17px;
+  background-image: url(/images/arrow-next.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.paginationBlock {
+  display: flex;
+}
+
+.paginationBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 20px;
+  gap: 10px;
+
+  width: 295px;
+  height: 64px;
+
+  /* Neutral/800 */
+  outline: none;
+  border: none;
+  background-color: #292E3D;
+}
+
+.paginationBtnText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  /* Neutral/White */
+
+  color: #FFFFFF
+}
+
+.paginationItem:nth-child(2n) {
+  margin: 16px 0;
+}
+
+.pagination {
+  width: 144px;
+}
+
+.paginationItem {
+  width: 16px;
+  height: 16px;
+  border-radius: 60px;
+
+  /* Primary */
+  background-color: #F6F8F7;
+}
+
+.paginationItem.active {
+  background-color: #2947A9;
+}

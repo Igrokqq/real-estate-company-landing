@@ -1,0 +1,68 @@
+.container {
+  background-image: url(/images/ads.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+}
+
+.getYourConsultationBtn {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 10px;
+
+  width: 232px;
+  height: 53px;
+
+  /* Neutral/White */
+
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+}
+
+.subHeading {
+  margin-top: 30px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.getYourConsultationBtn:hover {
+  filter: opacity(.8);
+}
+
+.getYourConsultationBtn .text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  /* Neutral/White */
+
+  color: #FFFFFF;
+}

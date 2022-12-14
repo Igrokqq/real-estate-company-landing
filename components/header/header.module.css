@@ -1,0 +1,23 @@
+.header {
+  padding: 30px 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.navItem:nth-child(2n) {
+  margin: 0 50px;
+}
+
+.nav .active {
+  color: #F9995D;
+}

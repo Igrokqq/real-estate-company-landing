@@ -1,0 +1,15 @@
+.container {
+  height: 70px;
+  background: #2947A9;
+  padding: 0 112px;
+}
+
+.text {
+  /* Caption */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
